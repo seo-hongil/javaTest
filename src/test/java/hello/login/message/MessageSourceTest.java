@@ -12,6 +12,7 @@ import static org.assertj.core.api.Assertions.*;
 
 @SpringBootTest
 public class MessageSourceTest {
+/*
 
     @Autowired
     MessageSource ms;
@@ -50,4 +51,5 @@ public class MessageSourceTest {
     void enLang() {
         assertThat(ms.getMessage("hello", null, Locale.ENGLISH)).isEqualTo("hello");
     }
+*/
 }
